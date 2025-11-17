@@ -15,30 +15,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libudunits2-dev libgdal-dev libcurl4-openssl-dev libxml2 libglpk-dev
-
-      - name: Set up R
-        uses: r-lib/actions/setup-r@v2
-
-      - name: Restore R packages (renv)
-        uses: r-lib/actions/setup-renv@v2
-
-      - name: Set up Quarto
+      - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render
-        run: quarto render
+        uses: quarto-dev/quarto-actions/render@v2
 
-      - name: Publish to gh-pages
-        run: |
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor }}@users.noreply.github.com"
-          quarto publish gh-pages --no-browser
+      - name: Publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
