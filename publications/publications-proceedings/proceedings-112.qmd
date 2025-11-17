@@ -1,6 +1,0 @@
----
-title: "Generalization and communication of welding simulations and experiments using scaling analysis"
-author: "Mendez, P. F., Tello, K. E., Gajapathi, Satya S."
-conference: "Trends in welding research"
-year: 2012
----

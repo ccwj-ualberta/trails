@@ -1,6 +1,0 @@
----
-title: "Predicting powder catchment efficiency in coaxial laser cladding"
-author: "Wood, G., Mendez, P. F."
-conference: "Fabtech/AWS annual meeting"
-year: 2015
----

@@ -1,6 +1,0 @@
----
-title: "Modeling of weld penetration at high productivity GTAW"
-author: "Duman, Ustun, Tello, K., Mendez, P. F."
-conference: "Fabtech/AWS annual meeting"
-year: 2008
----

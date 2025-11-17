@@ -1,6 +1,0 @@
----
-title: Tesla
-categories: [Projects]
-about:
-  template: solana
----

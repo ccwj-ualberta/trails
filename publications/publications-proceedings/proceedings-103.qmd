@@ -1,6 +1,0 @@
----
-title: "Moving welding from science to engineering"
-author: "Mendez, P. F."
-conference: "IIW annual assembly"
-year: 2013
----

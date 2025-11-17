@@ -1,6 +1,0 @@
----
-title: "Synthesis of experimental and simulation FSW results using scaling techniques"
-author: "Tello, K. E., Mendez, P. F."
-conference: "Fabtech/AWS annual meeting"
-year: 2009
----

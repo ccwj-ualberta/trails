@@ -1,6 +1,0 @@
----
-title: "A systematic approach to procedure development"
-author: "Mendez, P. F., Guest, S. D., Gilbank, J., Barnes, N.*"
-conference: "Young pipeliners association of canada (YPAC) pipeline conference"
-year: 2015
----

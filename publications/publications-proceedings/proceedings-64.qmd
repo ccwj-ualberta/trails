@@ -1,6 +1,0 @@
----
-title: "Effect of current on metal transfer in SAW"
-author: "Sengupta, Vivek, Mendez, P. F."
-conference: "Fabtech/AWS annual meeting"
-year: 2015
----

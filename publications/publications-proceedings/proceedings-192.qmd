@@ -1,6 +1,0 @@
----
-title: "Temas de avanzada en soldadura (Leading trends in welding)"
-author: "Mendez, P. F."
-conference: "NA"
-year: 2004
----

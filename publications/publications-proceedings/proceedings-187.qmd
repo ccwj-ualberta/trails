@@ -1,6 +1,0 @@
----
-title: "Recent developments in understanding and preventing humping and undercutting"
-author: "Mendez, P. F."
-conference: "Fabtech/AWS annual meeting"
-year: 2005
----

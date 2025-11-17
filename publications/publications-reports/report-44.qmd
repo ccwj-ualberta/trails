@@ -1,6 +1,0 @@
----
-title: "Aluminum MCAW wire"
-author: "Mendez, Patricio"
-institution: "Report of Invention"
-year: 2024
----

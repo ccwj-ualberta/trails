@@ -1,6 +1,0 @@
----
-title: "Weld penetration in high productivity GTAW"
-author: "Duman, U., Mendez, P. F."
-conference: "Fabtech/AWS annual meeting"
-year: 2010
----

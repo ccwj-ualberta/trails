@@ -1,6 +1,0 @@
----
-title: "Use of low transition temperature steel alloys for high wear applications"
-author: "Trautmann, Carter, Mendez, P. F."
-conference: "IIW annual assembly"
-year: 2002
----

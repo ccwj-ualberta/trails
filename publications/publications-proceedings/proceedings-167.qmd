@@ -1,6 +1,0 @@
----
-title: "Weld penetration at high velocity GTAW"
-author: "Duman, Üstün, Mendez, Patricio F."
-conference: "Fabtech/AWS annual meeting"
-year: 2007
----

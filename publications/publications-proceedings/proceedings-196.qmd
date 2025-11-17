@@ -1,6 +1,0 @@
----
-title: "Scaling laws for manufacturing, design, and beyond"
-author: "Mendez, P. F."
-conference: "Department of mechanical engineering"
-year: 2003
----

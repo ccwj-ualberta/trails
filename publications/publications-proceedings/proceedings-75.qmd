@@ -1,6 +1,0 @@
----
-title: "GMAW calorimetry with CO2 shielding gases"
-author: "McIntosh, Cory, Mendez, P.F."
-conference: "CanWeld/CWA annual meeting"
-year: 2015
----
