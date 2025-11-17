@@ -1,37 +1,41 @@
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-      - dev
-
 name: Quarto Publish
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-22.04
-    permissions:
-      contents: write
+    runs-on: ubuntu-latest
+
     steps:
-      - name: Check out repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Install system dependencies
-        run : |
+        run: |
           sudo apt-get update
-          sudo apt-get upgrade
-          sudo apt-get install libudunits2-dev libgdal-dev libcurl4-openssl-dev libxml2 libglpk-dev
+          sudo apt-get install -y libudunits2-dev libgdal-dev libcurl4-openssl-dev libxml2 libglpk-dev
 
       - name: Set up R
-        uses: r-lib/actions/setup-renv@v2
+        uses: r-lib/actions/setup-r@v2
 
-      - name: Recreate environment
+      - name: Restore R packages (renv)
         uses: r-lib/actions/setup-renv@v2
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render and Publish
+      - name: Render site
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Publish site
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
